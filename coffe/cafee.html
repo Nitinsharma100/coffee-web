@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cafe.css">
+    <style>
+        #first {
+            border: 4px dashed;
+            display: ruby-text;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+            
+        }
+
+        #first img {
+            width: 32%; /* Adjust based on the number of images */
+            margin: 0px; /* Adjust margin for spacing between images */
+        }
+
+        #d {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #sp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: -20px;
+        }
+
+        #sp1 {
+            margin: 5px;
+            padding: 10px 15px;
+            width: 100px;
+        }
+
+        .form-control,
+        .btn-submit {
+            margin-top: 10px;
+            padding: 8px;
+            width: 150px;
+        }
+
+        .back_ {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media screen and (max-width: 768px) {
+            #first img {
+                width: 48%; /* Adjust based on the number of images */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            #first img {
+                width: 100%; /* Adjust based on the number of images */
+            }
+        }
+
+        .f1{
+            background-color: rgb(96, 93, 93);
+            width: 18%;
+            height: 500px;
+            display: inline-block;
+            margin-left: 10px;
+           
+            
+        }
+       .footer{
+        margin-top: 20px;
+       
+     
+        
+        
+       }
+      .d{
+        margin-top: 30px;
+        display: inline-block;
+        width: 30%;
+        height: 400px;
+    
+        text-align: center;
+        line-height: 40px;
+        position: relative;
+        left: 70px;
+      }
+       
+       
+       
+    
+            
+
+        
+    </style>
+</head>
+
+<body id="body1">
+    <div id="d">
+        <span id="sp">
+            <span id="sp1">Website</span>
+            <span id="sp1">Home</span>
+            <span id="sp1">Page1</span>
+            <span id="sp1">page2</span>
+            <span id="sp1">page3</span>
+            <input id="sp1" style="margin-top: 35px;" type="text" class="form-control" placeholder="Search">
+            <button id="sp1" style="margin-top: 35px; width: 80px;" type="submit">Submit</button>
+        </span>
+    </div>
+    <div class="back_">
+        <br>
+        <button onclick="change_color1('#ff4e4e')" class="btn1"></button>
+        <button onclick="change_color2('#5d00ff')" class="btn2"></button>
+        <button onclick="change_color3('#008bff')" class="btn3"></button>
+    </div>
+    <br><br>
+
+    <div id="first">
+        <img style="margin-left: 1.5px;" src="download (1).jpeg" alt="">
+        <img src="download (7).jpeg" alt="">
+        <img src="download (3).jpeg" alt="">
+    </div>
+
+    <h1 style="font-size: 70px;">Expensive Coffee For Mideam persion's</h1>
+    <div class="f1">
+        <img width="100%" height="300" src="download.jpeg" alt="">
+        <h1>Latte Coffee
+            <br>RS.999
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="download (1).jpeg" alt="">
+        <h1>Frappuccino
+            <br>RS.870
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="download (3).jpeg" alt="">
+        <h1>Mocha
+            <br>RS.850
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="download (4).jpeg" alt="">
+        <h1>Mericano
+            <br>RS.1098
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="download (4).jpeg" alt="">
+        <h1>Irish Coffee
+            <br>RS.1008
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+  
+    <h1 style="font-size: 70px;"><h1 style="font-size: 70px;">Coffee For Heigh Mediam persion's</h1>
+    <div class="f1">
+        <img width="100%" height="300" src="download (6).jpeg" alt="">
+        <h1>Con panna
+            <br>RS.1199
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="download (7).jpeg" alt="">
+        <h1>Dopio
+            <br>RS.1108
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images.jpeg" alt="">
+        <h1>Machito
+            <br>RS.1200
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images (1).jpeg" alt="">
+        <h1>Red Eye
+            <br>RS.1300
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images (2).jpeg" alt="">
+        <h1>Cortado
+            <br>RS.1500
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+
+    <h1 style="font-size: 70px;"><h1 style="font-size: 70px;">Coffee For Ambani's  persion's</h1>
+    <div class="f1">
+        <img width="100%" height="300" src="images (3).jpeg" alt="">
+        <h1>LongBlack
+            <br>RS.17000
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images (4).jpeg" alt="">
+        <h1>Dopio
+            <br>RS.15000
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images (5).jpeg" alt="">
+        <h1>Red
+            <br>RS.19000
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images (6).jpeg" alt="">
+        <h1>Cortado
+            <br>RS.25000
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div>
+    <div class="f1">
+        <img width="100%" height="300" src="images (7).jpeg" alt="">
+        <h1>Cortado20
+            <br>RS.23500
+        </h1>
+        <button style="color: rgb(235, 234, 241); background-color:rgb(51, 0, 255); width:100px;height:50px; border-radius:20px;text-align:center;" >Buy Now</button>
+    </div><br>
+
+ 
+    <footer class="footer">
+        <div class="d">
+            <h1>Online Shoping</h1>
+            <p>Home <br>Marvel <br>Spiderman <br>Thor <br>Allu arjun</p>
+
+        </div>
+        <div class="d">
+            <h1>CUSTOMER POLICIES</h1>
+            <p>Contact As <br>F&A <br>terms of use <br>Track orders<br>return</p>
+
+        </div>
+        <div class="d">
+            <h1>Useful links</h1>
+            <p><a href="https:://google.com">Google</a> <br><a href="https:://yaaho.com">yaaho</a><br><a href="https:://Instagram.com">Instagram</a> <br><a href="https:://facebook.com">facebook</a> <br><a href="https:://Linkedin.com">Linkedin</a></p>
+
+        </div>
+
+
+    </footer>
+    
+    
+
+</body>
+
+</html>
